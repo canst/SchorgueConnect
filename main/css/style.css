@@ -4908,7 +4908,7 @@
 /* REGISTER AND LOGIN 
 /*-------------------------------------------------------*/
  .tr-register {
-     background: url(../images/face.jpg) #e6e6e6;
+     /*background: url(../images/face.jpg) #e6e6e6;*/
      position: relative;
     /* overflow: hidden;
      */
@@ -4918,7 +4918,7 @@
  .tr-register::before {
      content: '';
      position: absolute;
-     background: rgba(33, 48, 59, 0.52);
+     background: #fff;
      top: 0px;
      bottom: 0px;
      left: 0px;
@@ -4935,7 +4935,7 @@
      border-radius: 5px;
      text-align: center;
      position: relative;
-     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8);
+     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
 }
  .tr-regi-form input {
      padding: 10px 10px 10px;

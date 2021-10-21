@@ -25,6 +25,12 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 </head>
+<style>
+    body
+    {
+        background-image: none;
+    }
+</style>
 
 <body>
     <!-- Preloader -->
@@ -123,7 +129,7 @@
     <!--HEADER SECTION-->
     <section>
         <!-- TOP BAR -->
-        <div class="ed-top">
+        <!--<div class="ed-top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -156,7 +162,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <!-- LOGO AND MENU SECTION -->
         <div class="top-logo" data-spy="affix" data-offset-top="250">
@@ -367,7 +373,7 @@
         </div>
 		
 		<!-- TOP SEARCH BOX -->
-        <div class="search-top">
+        <!--<div class="search-top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -388,7 +394,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 		<!-- END TOP SEARCH BOX -->
     </section>
     <!--END HEADER SECTION-->
@@ -451,23 +457,23 @@
 	<section>
 		<div class="tr-register">
 			<div class="tr-regi-form">
-				<h4>Create an Account</h4>
-				<p>It's free and always will be.</p>
+				<h4>Créer un compte</h4>
+				<!-- <p>It's free and always will be.</p> -->
 				<form class="col s12">
 					<div class="row">
 						<div class="input-field col m6 s12">
 							<input type="text" class="validate">
-							<label>First Name</label>
+							<label>Nom</label>
 						</div>
 						<div class="input-field col m6 s12">
 							<input type="text" class="validate">
-							<label>Last Name</label>
+							<label>Prenom</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
 							<input type="number" class="validate">
-							<label>Mobile</label>
+							<label>Téléphone</label>
 						</div>
 					</div>
 					<div class="row">
@@ -479,21 +485,21 @@
 					<div class="row">
 						<div class="input-field col s12">
 							<input type="password" class="validate">
-							<label>Password</label>
+							<label>Mot de passe</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
 							<input type="password" class="validate">
-							<label>Confirm Password</label>
+							<label>Confirmer le mot de passe</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
-							<input type="submit" value="submit" class="waves-effect waves-light btn-large full-btn"> </div>
+							<input type="submit" value="Sauvegarder" class="waves-effect waves-light btn-large full-btn"> </div>
 					</div>
 				</form>
-				<p>Are you a already member ? <a href="login.html">Click to Login</a>
+				<p>Avez-vous déjà un compte ? <a href="login.html">Cliquez ici pour vous connecter!</a>
 				</p>
 			</div>
 		</div>
