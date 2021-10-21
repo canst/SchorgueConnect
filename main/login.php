@@ -123,7 +123,7 @@
     <!--HEADER SECTION-->
     <section>
         <!-- TOP BAR -->
-        <div class="ed-top">
+        <!--<div class="ed-top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -156,7 +156,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <!-- LOGO AND MENU SECTION -->
         <div class="top-logo" data-spy="affix" data-offset-top="250">
@@ -367,7 +367,7 @@
         </div>
 		
 		<!-- TOP SEARCH BOX -->
-        <div class="search-top">
+       <!-- <div class="search-top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -388,45 +388,48 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 		<!-- END TOP SEARCH BOX -->
     </section>
     <!--END HEADER SECTION-->
 		
 	<!--DASHBOARD-->
 	<section>
-		<div class="tr-register">
+		<div class="tr-register" style="background-image: none;">
 			<div class="tr-regi-form">
-				<h4>Sign In</h4>
-				<p>It's free and always will be.</p>
+				<h4>Se connecter</h4>
 				<form class="col s12">
 					<div class="row">
 						<div class="input-field col s12">
 							<input type="text" class="validate">
-							<label>User Name</label>
+							<label>Nom d'utilisateur</label>
 						</div>
 					</div>
 					<div class="row">
 						<div class="input-field col s12">
 							<input type="password" class="validate">
-							<label>Password</label>
+							<label>Mot de passe</label>
 						</div>
 					</div>
+                    <div>
+                        <input type="checkbox" class="validate">
+						<label>Se souvenir de moi</label>
+                    </div>
 					<div class="row">
 						<div class="input-field col s12">
-							<input type="submit" value="submit" class="waves-effect waves-light btn-large full-btn"> </div>
+							<input type="submit" value="Connexion" class="waves-effect waves-light btn-large full-btn"> </div>
 					</div>
 				</form>
-				<p><a href="forgot-pass.html">forgot password</a> | Are you a new user ? <a href="register.html">Register</a>
+				<p><a href="forgot-pass.html">Mot de passe oublié ?</a> | Etes-vous un nouvel utilisateur  ? <a href="register.html">S'enregistrer</a>
 				</p>
-				<div class="soc-login">
-					<h4>Sign in using</h4>
+				<!-- <div class="soc-login">
+					<h4>Se connecter en utilisant</h4>
 					<ul>
 						<li><a href="#"><i class="fa fa-facebook fb1"></i> Facebook</a> </li>
 						<li><a href="#"><i class="fa fa-twitter tw1"></i> Twitter</a> </li>
 						<li><a href="#"><i class="fa fa-google-plus gp1"></i> Google</a> </li>
 					</ul>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>
@@ -561,7 +564,7 @@
 										<li> <a href="#">Contact Us</a> </li>
 									</ul>
 								</div>
-								<div class="col-sm-3 foot-social foot-spec foot-com">
+								<!-- <div class="col-sm-3 foot-social foot-spec foot-com">
 									<h4><span>Follow</span> with us</h4>
 									<p>Join the thousands of other There are many variations of passages of Lorem Ipsum available</p>
 									<ul>
@@ -571,7 +574,7 @@
 										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
 										<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a> </li>
 									</ul>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
@@ -587,7 +590,7 @@
 			</div>
 		</div>
 	</section>
-	<section>
+	<!-- <section>
 		<div class="icon-float">
 			<ul>
 				<li><a href="#" class="sh">1k <br> Share</a> </li>
@@ -599,7 +602,7 @@
 				<li><a href="#" class="sh1"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> </li>
 			</ul>
 		</div>
-	</section>
+	</section> -->
 	<!--========= Scripts ===========-->
 	<script src="js/jquery-latest.min.js"></script>
 	<script src="js/bootstrap.js"></script>

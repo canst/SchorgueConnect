@@ -6,7 +6,9 @@ DROP DATABASE  IF EXISTS schorgue ;
 -- -----------------------------------------------------
 -- database schorgue
 -- -----------------------------------------------------
+
 CREATE DATABASE  IF NOT EXISTS schorgue ;
+USE schorgue;
 
 -- -----------------------------------------------------
 -- Table `schorgue`.`teacher`
