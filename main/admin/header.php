@@ -1,3 +1,12 @@
+<?php 
+// session_start();
+// 	require_once 'scripts/dbconnect.php';
+
+
+// $student = $bdd ->query ('SELECT * FROM student');
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

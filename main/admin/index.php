@@ -65,8 +65,8 @@
                         <div class="col-md-6">
                             <div class="box-inn-sp">
                                 <div class="inn-title">
-                                    <h4>Country Campaigns</h4>
-                                    <p>Airtport Hotels The Right Way To Start A Short Break Holiday</p>
+                                    <h4>Classrom Attendance</h4>
+                                    <p>Course Attendance as recorded by the teacher</p>
                                     <a class='dropdown-button drop-down-meta' href='#' data-activates='dropdown1'><i class="material-icons">more_vert</i></a>
                                     <!-- Dropdown Structure -->
                                     <ul id='dropdown1' class='dropdown-content'>
@@ -90,10 +90,9 @@
                                         <table class="table table-hover">
                                             <thead>
                                                 <tr>
-                                                    <th>Country</th>
-                                                    <th>Client</th>
-                                                    <th>Changes</th>
-                                                    <th>Budget</th>
+                                                    <th>Date</th>
+                                                    <th>Student</th>
+                                                    <th>Course/Subject</th>
                                                     <th>Status</th>
                                                 </tr>
                                             </thead>
@@ -103,9 +102,6 @@
                                                     </td>
                                                     <td>Beavis</td>
                                                     <td><span class="txt-success"><i class="fa fa-angle-up" aria-hidden="true"></i><span>2.43%</span></span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="txt-dark weight-500">$1478</span>
                                                     </td>
                                                     <td>
                                                         <span class="label label-success">Active</span>
@@ -118,9 +114,6 @@
                                                     <td><span class="txt-success"><i class="fa fa-angle-up" aria-hidden="true"></i><span>1.43%</span></span>
                                                     </td>
                                                     <td>
-                                                        <span class="txt-dark weight-500">$951</span>
-                                                    </td>
-                                                    <td>
                                                         <span class="label label-danger">Closed</span>
                                                     </td>
                                                 </tr>
@@ -131,36 +124,7 @@
                                                     <td><span class="txt-danger"><i class="fa fa-angle-up" aria-hidden="true"></i><span>-8.43%</span></span>
                                                     </td>
                                                     <td>
-                                                        <span class="txt-dark weight-500">$632</span>
-                                                    </td>
-                                                    <td>
                                                         <span class="label label-default">Hold</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="txt-dark weight-500">Norway</span>
-                                                    </td>
-                                                    <td>Neosoft</td>
-                                                    <td><span class="txt-success"><i class="fa fa-angle-up" aria-hidden="true"></i><span>7.43%</span></span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="txt-dark weight-500">$325</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="label label-default">Hold</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="txt-dark weight-500">South Africa</span>
-                                                    </td>
-                                                    <td>Hencework</td>
-                                                    <td><span class="txt-success"><i class="fa fa-angle-up" aria-hidden="true"></i><span>9.43%</span></span>
-                                                    </td>
-                                                    <td>
-                                                        <span>$258</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="label label-success">Active</span>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -174,8 +138,8 @@
                         <div class="col-md-6">
                             <div class="box-inn-sp">
                                 <div class="inn-title">
-                                    <h4>Country Campaigns</h4>
-                                    <p>Airtport Hotels The Right Way To Start A Short Break Holiday</p>
+                                    <h4>Flash Exam Report</h4>
+                                    <p>The list of flash exams per students and per course/subject</p>
                                     <a class='dropdown-button drop-down-meta' href='#' data-activates='dropdown2'><i class="material-icons">more_vert</i></a>
                                     <!-- Dropdown Structure -->
                                     <ul id='dropdown2' class='dropdown-content'>
@@ -199,77 +163,40 @@
                                         <table class="table table-hover">
                                             <thead>
                                                 <tr>
-                                                    <th>State</th>
-                                                    <th>Client</th>
-                                                    <th>Changes</th>
-                                                    <th>Budget</th>
-                                                    <th>Status</th>
+                                                    <th>ID</th>
+                                                    <th>Course</th>
+                                                    <th>Student</th>
+                                                    <th>Grade1</th>
+                                                    <th>Grade2</th>
+                                                    <th>Grade3</th>
+                                                    <th>Grade4</th>
+                                                    <th>Last_updated</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td><span class="txt-dark weight-500">California</span>
+                                                    <td><span class="txt-dark weight-500">1</span>
                                                     </td>
-                                                    <td>Beavis</td>
-                                                    <td><span class="txt-success"><i class="fa fa-angle-up" aria-hidden="true"></i><span>2.43%</span></span>
+                                                    <td><span class="txt-success">Mathematics</span></td>
+                                                    <td>
+                                                        <span class="txt-dark weight-500">Zongo Ali</span>
                                                     </td>
                                                     <td>
-                                                        <span class="txt-dark weight-500">$1478</span>
+                                                        <span class="txt-dark weight-500">10</span>
                                                     </td>
                                                     <td>
-                                                        <span class="label label-success">Active</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="txt-dark weight-500">Florida</span>
-                                                    </td>
-                                                    <td>Felix</td>
-                                                    <td><span class="txt-success"><i class="fa fa-angle-up" aria-hidden="true"></i><span>1.43%</span></span>
+                                                        <span class="txt-dark weight-500">15</span>
                                                     </td>
                                                     <td>
-                                                        <span class="txt-dark weight-500">$951</span>
+                                                        <span class="txt-dark weight-500">15</span>
                                                     </td>
                                                     <td>
-                                                        <span class="label label-danger">Closed</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="txt-dark weight-500">Hawaii</span>
-                                                    </td>
-                                                    <td>Cannibus</td>
-                                                    <td><span class="txt-danger"><i class="fa fa-angle-up" aria-hidden="true"></i><span>-8.43%</span></span>
+                                                        <span class="txt-dark weight-500">15</span>
                                                     </td>
                                                     <td>
-                                                        <span class="txt-dark weight-500">$632</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="label label-default">Hold</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="txt-dark weight-500">Alaska</span>
-                                                    </td>
-                                                    <td>Neosoft</td>
-                                                    <td><span class="txt-success"><i class="fa fa-angle-up" aria-hidden="true"></i><span>7.43%</span></span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="txt-dark weight-500">$325</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="label label-default">Hold</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="txt-dark weight-500">New Jersey</span>
-                                                    </td>
-                                                    <td>Hencework</td>
-                                                    <td><span class="txt-success"><i class="fa fa-angle-up" aria-hidden="true"></i><span>9.43%</span></span>
-                                                    </td>
-                                                    <td>
-                                                        <span>$258</span>
-                                                    </td>
-                                                    <td>
-                                                        <span class="label label-success">Active</span>
+                                                        <span class="txt-dark weight-500">10:43:12
+                                                            20.10.2021
+                                                        </span>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -281,13 +208,95 @@
                     </div>
                 </div>
 
-                <!--== User Details ==-->
+                <!--== Student Details ==-->
                 <div class="sb2-2-3">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="box-inn-sp">
                                 <div class="inn-title">
-                                    <h4>User Details</h4>
+                                    <h4>Student Details</h4>
+                                    <p>Airtport Hotels The Right Way To Start A Short Break Holiday</p>
+                                    <a class="dropdown-button drop-down-meta" href="#" data-activates="dr-users"><i class="material-icons">more_vert</i></a>
+                                    <ul id="dr-users" class="dropdown-content">
+                                        <li><a href="#!">Add New</a>
+                                        </li>
+                                        <li><a href="#!">Edit</a>
+                                        </li>
+                                        <li><a href="#!">Update</a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><a href="#!"><i class="material-icons">delete</i>Delete</a>
+                                        </li>
+                                        <li><a href="#!"><i class="material-icons">subject</i>View All</a>
+                                        </li>
+                                        <li><a href="#!"><i class="material-icons">play_for_work</i>Download</a>
+                                        </li>
+                                    </ul>
+                                    <!-- Dropdown Structure -->
+
+                                </div>
+                                <div class="tab-inn">
+                                    <div class="table-responsive table-desi">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>ID</th>
+                                                    <th>First_name</th>
+                                                    <th>Last_name</th>
+                                                    <th>BirthDate</th>
+                                                    <th>Matricule</th>
+                                                    <th>Classroom</th>
+                                                    <th>Parent</th>
+                                                    <th>Email</th>
+                                                    <th>Password</th>
+                                                    <th>Phone</th>
+                                                    <th>Address</th>
+                                                    <th>Status</th>
+                                                    <th>Date_of_join</th>
+                                                    <th>last_login_date</th>
+                                                    <th>last_login_ip</th>
+                                                    <th>Last_updated</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <!-- <?php   while ($an = $student -> fetch()){ ?>        
+                                                        <tr>
+                                                            <th scope="row"><?php echo $an['student_id']?></th>
+                                                            <th><?php echo $an['first_name']?></th>
+                                                            <th><?php echo $an['last_name']?></th>
+                                                            <th><?php echo $an['dob']?></th>
+                                                            <th><?php echo $an['matricule']?></th>
+                                                            <th><?php echo $an['classroom_id']?></th>
+                                                            <th><?php echo $an['parent_id']?></th>
+                                                            <th><?php echo $an['email']?></th>
+                                                            <th><?php echo $an['pwd']?></th>
+                                                            <th><?php echo $an['phone']?></th>
+                                                            <th><?php echo $an['address_id']?></th>
+                                                            <th><?php echo $an['statut']?></th>
+                                                            <th><?php echo $an['date_of_join']?></th>
+                                                            <th><?php echo $an['last_login_date']?></th>
+                                                            <th><?php echo $an['last_login_ip']?></th>
+                                                            <th><?php echo $an['last_updated']?></th>
+                                                            <td><?php echo "<input type='button' class='confirm' value='valider' name='confirmation' id='suivant' onclick='colored'>"?>
+                                                        </tr>
+                                                <?php    } ?> -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--== teacher Details ==-->
+                <div class="sb2-2-3">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="box-inn-sp">
+                                <div class="inn-title">
+                                    <h4>Teacher Details</h4>
                                     <p>Airtport Hotels The Right Way To Start A Short Break Holiday</p>
                                     <a class="dropdown-button drop-down-meta" href="#" data-activates="dr-users"><i class="material-icons">more_vert</i></a>
                                     <ul id="dr-users" class="dropdown-content">
@@ -438,6 +447,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="sb2-2-3">
                     <div class="row">
                         <!--== Listing Enquiry ==-->
