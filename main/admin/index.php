@@ -215,7 +215,54 @@
                             <div class="box-inn-sp">
                                 <div class="inn-title">
                                     <h4>Student Details</h4>
-                                    <p>Airtport Hotels The Right Way To Start A Short Break Holiday</p>
+                                    <p>Rechercher Filteree</p>
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-3 mob-hide">
+                                            <form class="app-search">
+                                                <input type="text" placeholder="Search..." class="form-control">
+                                                <a href=""><i class="fa fa-search"></i></a>
+                                            </form>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 mob-hide">
+                                            <form class="app-search">
+                                                <input type="text" placeholder="Search..." class="form-control">
+                                                <a href=""><i class="fa fa-search"></i></a>
+                                            </form>
+                                        </div>
+                                         <div class="col-md-3">
+                                            <div class="sb2-13">
+                                                <ul class="collapsible" data-collapsible="accordion">
+                                                        <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-user" aria-hidden="true"></i> Class</a>
+                                                        <div class="collapsible-body left-sub-menu">
+                                                            <ul>
+                                                                <li><a href="user-all.php">6 eme</a>
+                                                                </li>
+                                                                <li><a href="user-add.php">5 eme</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                        <div class="col-md-3">
+                                            <div class="sb2-13">
+                                                <ul class="collapsible" data-collapsible="accordion">
+                                                        <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-user" aria-hidden="true"></i>Matiere</a>
+                                                        <div class="collapsible-body left-sub-menu">
+                                                            <ul>
+                                                                <li><a href="user-all.php">HG</a>
+                                                                </li>
+                                                                <li><a href="user-add.php">Math</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                        </div>
+<!--
                                     <a class="dropdown-button drop-down-meta" href="#" data-activates="dr-users"><i class="material-icons">more_vert</i></a>
                                     <ul id="dr-users" class="dropdown-content">
                                         <li><a href="#!">Add New</a>
@@ -232,7 +279,8 @@
                                         <li><a href="#!"><i class="material-icons">play_for_work</i>Download</a>
                                         </li>
                                     </ul>
-                                    <!-- Dropdown Structure -->
+                                     Dropdown Structure 
+-->
 
                                 </div>
                                 <div class="tab-inn">
