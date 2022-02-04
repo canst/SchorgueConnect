@@ -1,11 +1,29 @@
+
+
+
+    <!--== FAV ICON ==-->
+    <link rel="shortcut icon" href="images/fav.ico">
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Quicksand:300,400,500" rel="stylesheet">
+
+    <!-- FONT-AWESOME ICON CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!--== ALL CSS FILES ==-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mob.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/materialize.css" />
+
+
 <div class="container-fluid sb2">
         <div class="row">
             <div class="sb2-1">
                 <!--== USER INFO ==-->
                 <div class="sb2-12">
                     <ul>
-                        <li><img src="images/placeholder.jpg" alt="">
-                        </li>
+                        <li><img src="images/placeholder.jpg" alt=""></li>
                         <li>
                             <h5>Victoria Baker <span> Santa Ana, CA</span></h5>
                         </li>
@@ -20,7 +38,7 @@
                         <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-user" aria-hidden="true"></i> Users</a>
                             <div class="collapsible-body left-sub-menu">
                                 <ul>
-                                    <li><a href="studentlist.php">All Users</a>
+                                    <li><a href="#">All Users</a>
                                     </li>
                                     <li><a href="user-add.php">Add New user</a>
                                     </li>
@@ -66,3 +84,9 @@
                     </ul>
                 </div>
             </div>
+
+            <!--======== SCRIPT FILES =========-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/custom.js"></script>
